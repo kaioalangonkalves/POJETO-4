@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+   background-color: rgb(255, 255, 255);
+}
+
+#boxConteudoInformacional{
+   background-image: url(https://i.pinimg.com/originals/84/ff/95/84ff9545f708af3b81eae72e1e6c0933.jpg); 
+    background-position: center; 
+    background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     width: 100vw;
+    
+  
+}
+/* #alinhamanetogeral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+} */
+#alinhametoCardeImpult{
+    padding: 8px 29rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9rem;
+    width: 100rem;
+    gap: 2rem;
+}
+input{
+    height: 3rem;
+    width: 100rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    /* titulo */
+    font-size: xx-large;
+    /* borda none */
+       outline: none;
+       padding:  2rem 2rem;
+}
+input:hover{
+    border: 1px solid black;
+ 
+    
+}
+button{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 3.5rem;
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    border: 2px solid rgba(147, 137, 137, 0.544);
+    border-radius: 5px;
+    height: 3.6rem;
+    width: 30.1rem;
+    background-color: rgba(0, 0, 0, 0.566);
+    color: white;
+
+}
+.active{
+    background-color: rgba(255, 0, 0, 0.07);
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#alinhamenot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+
+#paragrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* CARD */
+
+/* ALINHAMETO */
+#carde{
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* style */
+#styleCard{
+    border-radius: 2rem;
+    height: 30rem;
+    width: 36rem;
+    padding: 2rem;
+    backdrop-filter: blur(5rem);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+
+}

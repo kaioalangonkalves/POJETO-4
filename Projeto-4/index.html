@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina 4, dedicado ao anjos e os casamentos catolicos</title>
+</head>
+
+<body>
+
+    <section id="boxConteudoInformacional" ondblclick="removerActiv()">
+        <!-- Alinhameto do impulte -->
+        <div id="alinhamanetogeral">
+            <div id="alinhametoCardeImpult">
+                <input type="text" name=""  placeholder="Nome"
+                    id="validadeCasamento">
+                <button onclick="apataInfomação()" id="buttos">Clik</button>
+            </div>
+        </div>
+        <div id="carde">
+            <div id="styleCard">
+                <p id="paragrafo"></p>
+              
+            </div>
+        </div>
+        </div>
+        <!-- <div id="alinhametoCardeImpult"><input type="text" name="" placeholder="Seu casamento e valido ou não digite aqui !" id="validadeCasamento"><button onclick="apataInfomação()">Clik</button></div> -->
+    </section>
+
+
+</body>
+<script>
+    function verificarSenha() {
+      var senha = prompt("Digite a senha:");
+      if (senha === "1920") { // Troque "12345" pela senha desejada
+        alert("Acesso permitido");
+      } else {
+        alert("Acesso negado");
+        window.location.href = "https://www.google.com"; // Redireciona para outra página
+      }
+    }
+    window.onload = verificarSenha;
+  </script>
+<script src="javascript.js"></script>
+
+</html>

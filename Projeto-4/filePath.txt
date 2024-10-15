@@ -1,0 +1,15 @@
+informação página
+ Gera um numero sequencial de { 1 a 10};
+
+function gerarSequenciaIncremental(inicio, fim) {
+    const numeros = [];
+    for (let i = inicio; i <= fim; i++) {
+        numeros.push(i);
+    }
+    return numeros;
+}
+
+// Exemplo de uso:
+const sequencia = gerarSequenciaIncremental(1, 10); // Gera números de 1 a 10
+console.log(sequencia);
+ 
